@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+    background: url('../Assets/img/3e31abcfd2e78094697e4870048930d4.jpg') no-repeat center center fixed; 
+
+    background-size: cover;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: GotFont;
+    src: url(../Assets/Fonts/Game\ of\ Thrones.ttf);
+}
+/*header section*/
+.header{
+    width: auto;
+    height: 200px;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header p{
+    color: ivory;
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-family: GotFont, sans-serif;
+    letter-spacing: 4px;
+}
+
+.toggle-btn{
+    border: none;
+    background: none;
+    color: seashell;
+    margin: 0px 40px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-family: GotFont;
+    transition: transform .2s;
+    width: fit-content;
+}
+.toggle-btn:hover{
+    transform: scale(1.5);
+}
+/*header section*/
+
+
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.content-section{
+    padding: 20px;
+    width: 600px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.5px solid rgba(182, 180, 180, 0.7);
+
+}
+
+
+.content-title{
+    color: seashell;
+    text-align: center;
+    font-size: 1rem;
+    font-family: GotFont, sans-serif;
+    word-spacing: 5px;
+}
+.content-copy{
+    color: snow;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 30px;
+    line-height: 1.5;
+}
+
+
+
+
+
+#hotpie{
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+    
+}
