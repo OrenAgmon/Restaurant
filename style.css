@@ -90,12 +90,42 @@ html{
 }
 
 
-
-
-
 #hotpie{
     border-radius: 50%;
     width: 120px;
     height: auto;
     
 }
+
+/* This is the Menu section design */
+
+
+.menu-content-section{
+    height: auto;
+    display: flex;
+    gap: 40px;
+}
+
+.menu-content-section img{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+.dish-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dish-title{
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+}
+
+#dish-copy{
+    font-weight: 100;
+    font-size: 16px;
+    color: rgb(233, 224, 224);
+    line-height: 2;
+}
+
