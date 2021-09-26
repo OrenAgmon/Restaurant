@@ -1,6 +1,6 @@
 html{
     box-sizing: border-box;
-    background: url('../Assets/img/3e31abcfd2e78094697e4870048930d4.jpg') no-repeat center center fixed; 
+    background: url('../dist/Assets/img/3e31abcfd2e78094697e4870048930d4.jpg')no-repeat center center fixed; 
 
     background-size: cover;
 }

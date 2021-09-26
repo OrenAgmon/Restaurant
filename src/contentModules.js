@@ -21,7 +21,7 @@ function homePageContent(){
 
     const hotpie = document.createElement('img')
     hotpie.setAttribute('id', 'hotpie')
-    hotpie.setAttribute('src', "../Assets/img/Screen Shot 2021-09-25 at 13.24.57.png")
+    hotpie.setAttribute('src', "../dist/Assets/img/Screen Shot 2021-09-25 at 13.24.57.png")
     hotpie.setAttribute('alt', 'hotpie')
 
 
@@ -48,7 +48,7 @@ function contactContent(){
 
     const map = document.createElement('img')
     map.setAttribute('id', 'map')
-    map.setAttribute('src', '../Assets/img/Screen Shot 2021-09-25 at 17.36.16.png')
+    map.setAttribute('src', '../dist/Assets/img/Screen Shot 2021-09-25 at 17.36.16.png')
     map.setAttribute('alt','map')
 
     contentSection.append(contentTitle,map,contentInst)
@@ -71,15 +71,15 @@ function menuContent(){
     contentTitle.classList.add('content-title')
     contentTitle.textContent = 'Our Menu'
 
-    const theLastImg = '../Assets/img/The last feast.png'
+    const theLastImg = '../dist/Assets/img/The last feast.png'
     const theLastTitle = 'The Last Feast'
     const theLastCopy = "If this is your last meal, Choose this fantastic, Creamy, vegetable pie. The cheese if rom our goats, with fresh vegetables from the garden, and chosen spices we grow."
 
-    const theKingImg = '../Assets/img/King of the north.png'
+    const theKingImg = '../dist/Assets/img/King of the north.png'
     const theKingTitle = 'King In The North'
     const theKingCopy = 'This pie is handcrafted and  detailed to perfection. The making requires hotpie to work for more than 12 hours. Designed for special occasions.'
 
-    const lannisterImg = '../Assets/img/LannisterPie.png'
+    const lannisterImg = '../dist/Assets/img/LannisterPie.png'
     const lannisterTitle = 'Lannisters Pie'
     const lannisterCopy = 'This pie is a special dessert, filled with the sweet taste of revenge. on specific orders can be made for your enemies, with a note saying: "The Lannisters send their regards"'
 
