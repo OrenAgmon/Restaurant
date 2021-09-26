@@ -14,7 +14,7 @@ html{
 
 @font-face {
     font-family: GotFont;
-    src: url(../dist/Assets/Fonts/Game\ of\ Thrones.ttf);
+    src: url(Assets/Fonts/Game\ of\ Thrones.ttf);
 }
 /*header section*/
 .header{
