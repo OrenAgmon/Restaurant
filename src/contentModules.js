@@ -87,7 +87,7 @@ function menuContent(){
     const KingInTheNorth = createDish(theKingTitle, theKingCopy, theKingImg)
     const lannisterPie = createDish(lannisterTitle, lannisterCopy, lannisterImg)
 
-    contentSection.append(theLastFeast, KingInTheNorth, lannisterPie)
+    contentSection.append(contentTitle, theLastFeast, KingInTheNorth, lannisterPie)
     mainSection.appendChild(contentSection)
     bodySection.appendChild(mainSection)
     mainSection.style.display = 'none'
